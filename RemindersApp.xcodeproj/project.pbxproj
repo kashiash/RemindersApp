@@ -11,6 +11,17 @@
 		3F7612B129D37975002AEAE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7612B029D37975002AEAE5 /* ContentView.swift */; };
 		3F7612B329D37976002AEAE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7612B229D37976002AEAE5 /* Assets.xcassets */; };
 		3F7612B729D37976002AEAE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7612B629D37976002AEAE5 /* Preview Assets.xcassets */; };
+		3F7612BF29D379B7002AEAE5 /* CoreDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7612BE29D379B7002AEAE5 /* CoreDataProvider.swift */; };
+		3F7612C229D37C45002AEAE5 /* RemindersModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F7612C029D37C45002AEAE5 /* RemindersModel.xcdatamodeld */; };
+		3F7612C529D37E45002AEAE5 /* MyList+CoredataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7612C429D37E45002AEAE5 /* MyList+CoredataClass.swift */; };
+		3F7612C729D37E66002AEAE5 /* MyList+CoredataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7612C629D37E66002AEAE5 /* MyList+CoredataProperties.swift */; };
+		3F7612CA29D3858D002AEAE5 /* AddNewListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7612C929D3858D002AEAE5 /* AddNewListView.swift */; };
+		3F7612CC29D38670002AEAE5 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7612CB29D38670002AEAE5 /* ColorPickerView.swift */; };
+		3F7612CE29D3A3B4002AEAE5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7612CD29D3A3B4002AEAE5 /* HomeView.swift */; };
+		3F7612D029D3A435002AEAE5 /* MyListsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7612CF29D3A435002AEAE5 /* MyListsView.swift */; };
+		3F7612D229D3A469002AEAE5 /* MyListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7612D129D3A469002AEAE5 /* MyListCellView.swift */; };
+		3F7612D429D3A4AA002AEAE5 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7612D329D3A4AA002AEAE5 /* PreviewData.swift */; };
+		3F7612D729D3A4F2002AEAE5 /* ReminderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7612D629D3A4F2002AEAE5 /* ReminderService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +31,17 @@
 		3F7612B229D37976002AEAE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F7612B429D37976002AEAE5 /* RemindersApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RemindersApp.entitlements; sourceTree = "<group>"; };
 		3F7612B629D37976002AEAE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F7612BE29D379B7002AEAE5 /* CoreDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProvider.swift; sourceTree = "<group>"; };
+		3F7612C129D37C45002AEAE5 /* RemindersModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RemindersModel.xcdatamodel; sourceTree = "<group>"; };
+		3F7612C429D37E45002AEAE5 /* MyList+CoredataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyList+CoredataClass.swift"; sourceTree = "<group>"; };
+		3F7612C629D37E66002AEAE5 /* MyList+CoredataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyList+CoredataProperties.swift"; sourceTree = "<group>"; };
+		3F7612C929D3858D002AEAE5 /* AddNewListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewListView.swift; sourceTree = "<group>"; };
+		3F7612CB29D38670002AEAE5 /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
+		3F7612CD29D3A3B4002AEAE5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3F7612CF29D3A435002AEAE5 /* MyListsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListsView.swift; sourceTree = "<group>"; };
+		3F7612D129D3A469002AEAE5 /* MyListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListCellView.swift; sourceTree = "<group>"; };
+		3F7612D329D3A4AA002AEAE5 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		3F7612D629D3A4F2002AEAE5 /* ReminderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +74,12 @@
 		3F7612AD29D37975002AEAE5 /* RemindersApp */ = {
 			isa = PBXGroup;
 			children = (
+				3F7612D529D3A4D8002AEAE5 /* Services */,
+				3F7612C829D382D3002AEAE5 /* Views */,
+				3F7612C329D37E02002AEAE5 /* Models */,
+				3F7612C029D37C45002AEAE5 /* RemindersModel.xcdatamodeld */,
+				3F7612BD29D37985002AEAE5 /* Providers */,
 				3F7612AE29D37975002AEAE5 /* RemindersAppApp.swift */,
-				3F7612B029D37975002AEAE5 /* ContentView.swift */,
 				3F7612B229D37976002AEAE5 /* Assets.xcassets */,
 				3F7612B429D37976002AEAE5 /* RemindersApp.entitlements */,
 				3F7612B529D37976002AEAE5 /* Preview Content */,
@@ -65,8 +91,47 @@
 			isa = PBXGroup;
 			children = (
 				3F7612B629D37976002AEAE5 /* Preview Assets.xcassets */,
+				3F7612D329D3A4AA002AEAE5 /* PreviewData.swift */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3F7612BD29D37985002AEAE5 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				3F7612BE29D379B7002AEAE5 /* CoreDataProvider.swift */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		3F7612C329D37E02002AEAE5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3F7612C429D37E45002AEAE5 /* MyList+CoredataClass.swift */,
+				3F7612C629D37E66002AEAE5 /* MyList+CoredataProperties.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3F7612C829D382D3002AEAE5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3F7612B029D37975002AEAE5 /* ContentView.swift */,
+				3F7612C929D3858D002AEAE5 /* AddNewListView.swift */,
+				3F7612CB29D38670002AEAE5 /* ColorPickerView.swift */,
+				3F7612CD29D3A3B4002AEAE5 /* HomeView.swift */,
+				3F7612CF29D3A435002AEAE5 /* MyListsView.swift */,
+				3F7612D129D3A469002AEAE5 /* MyListCellView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3F7612D529D3A4D8002AEAE5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3F7612D629D3A4F2002AEAE5 /* ReminderService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +204,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F7612CE29D3A3B4002AEAE5 /* HomeView.swift in Sources */,
+				3F7612D729D3A4F2002AEAE5 /* ReminderService.swift in Sources */,
+				3F7612CC29D38670002AEAE5 /* ColorPickerView.swift in Sources */,
 				3F7612B129D37975002AEAE5 /* ContentView.swift in Sources */,
+				3F7612C229D37C45002AEAE5 /* RemindersModel.xcdatamodeld in Sources */,
+				3F7612D029D3A435002AEAE5 /* MyListsView.swift in Sources */,
+				3F7612C529D37E45002AEAE5 /* MyList+CoredataClass.swift in Sources */,
+				3F7612C729D37E66002AEAE5 /* MyList+CoredataProperties.swift in Sources */,
+				3F7612CA29D3858D002AEAE5 /* AddNewListView.swift in Sources */,
+				3F7612D429D3A4AA002AEAE5 /* PreviewData.swift in Sources */,
+				3F7612D229D3A469002AEAE5 /* MyListCellView.swift in Sources */,
 				3F7612AF29D37975002AEAE5 /* RemindersAppApp.swift in Sources */,
+				3F7612BF29D379B7002AEAE5 /* CoreDataProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +430,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3F7612C029D37C45002AEAE5 /* RemindersModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3F7612C129D37C45002AEAE5 /* RemindersModel.xcdatamodel */,
+			);
+			currentVersion = 3F7612C129D37C45002AEAE5 /* RemindersModel.xcdatamodel */;
+			path = RemindersModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3F7612A329D37975002AEAE5 /* Project object */;
 }
