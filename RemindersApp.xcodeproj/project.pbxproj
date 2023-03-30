@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3F7612AF29D37975002AEAE5 /* RemindersAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7612AE29D37975002AEAE5 /* RemindersAppApp.swift */; };
-		3F7612B129D37975002AEAE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7612B029D37975002AEAE5 /* ContentView.swift */; };
 		3F7612B329D37976002AEAE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7612B229D37976002AEAE5 /* Assets.xcassets */; };
 		3F7612B729D37976002AEAE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7612B629D37976002AEAE5 /* Preview Assets.xcassets */; };
 		3F7612BF29D379B7002AEAE5 /* CoreDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7612BE29D379B7002AEAE5 /* CoreDataProvider.swift */; };
@@ -32,7 +31,6 @@
 /* Begin PBXFileReference section */
 		3F7612AB29D37975002AEAE5 /* RemindersApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemindersApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F7612AE29D37975002AEAE5 /* RemindersAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersAppApp.swift; sourceTree = "<group>"; };
-		3F7612B029D37975002AEAE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3F7612B229D37976002AEAE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F7612B429D37976002AEAE5 /* RemindersApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RemindersApp.entitlements; sourceTree = "<group>"; };
 		3F7612B629D37976002AEAE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -128,10 +126,9 @@
 		3F7612C829D382D3002AEAE5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				3F7612B029D37975002AEAE5 /* ContentView.swift */,
+				3F7612CD29D3A3B4002AEAE5 /* HomeView.swift */,
 				3F7612C929D3858D002AEAE5 /* AddNewListView.swift */,
 				3F7612CB29D38670002AEAE5 /* ColorPickerView.swift */,
-				3F7612CD29D3A3B4002AEAE5 /* HomeView.swift */,
 				3F7612CF29D3A435002AEAE5 /* MyListsView.swift */,
 				3F7612D129D3A469002AEAE5 /* MyListCellView.swift */,
 				3F7612DB29D4EFDE002AEAE5 /* MyListDetailView.swift */,
@@ -193,7 +190,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					3F7612AA29D37975002AEAE5 = {
 						CreatedOnToolsVersion = 14.2;
@@ -238,7 +235,6 @@
 				3F7612CE29D3A3B4002AEAE5 /* HomeView.swift in Sources */,
 				3F7612D729D3A4F2002AEAE5 /* ReminderService.swift in Sources */,
 				3F7612CC29D38670002AEAE5 /* ColorPickerView.swift in Sources */,
-				3F7612B129D37975002AEAE5 /* ContentView.swift in Sources */,
 				3F7612C229D37C45002AEAE5 /* RemindersModel.xcdatamodeld in Sources */,
 				3F7612D029D3A435002AEAE5 /* MyListsView.swift in Sources */,
 				3F7612DC29D4EFDE002AEAE5 /* MyListDetailView.swift in Sources */,
@@ -292,6 +288,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -350,6 +347,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -376,6 +374,7 @@
 				CODE_SIGN_ENTITLEMENTS = RemindersApp/RemindersApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"RemindersApp/Preview Content\"";
 				DEVELOPMENT_TEAM = PFVCA649R3;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -391,7 +390,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
@@ -414,6 +413,7 @@
 				CODE_SIGN_ENTITLEMENTS = RemindersApp/RemindersApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"RemindersApp/Preview Content\"";
 				DEVELOPMENT_TEAM = PFVCA649R3;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -429,7 +429,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.1;

@@ -25,6 +25,7 @@ class ReminderService {
         myList.color = color
         try save()
     }
+    
     static func saveReminderToMyList(myList: MyList, reminderTitle: String) throws {
         let reminder = Reminder(context: viewContext)
         reminder.title = reminderTitle
@@ -38,6 +39,5 @@ class ReminderService {
         request.predicate = NSPredicate(format: "list = %@ AND isCompleted = false", myList)
         return request
     }
-    
     
 }
